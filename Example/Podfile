@@ -1,6 +1,11 @@
 use_frameworks!
-target 'DarkTemplar-macOS' do
+
+target 'DarkTemplar_Example' do
   pod 'DarkTemplar', :path => '../'
-  
-  
+
+  target 'DarkTemplar_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end
