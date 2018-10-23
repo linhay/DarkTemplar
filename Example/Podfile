@@ -1,5 +1,5 @@
 use_frameworks!
-target 'DarkTemplar macOS' do
+target 'DarkTemplar-macOS' do
   pod 'DarkTemplar', :path => '../'
   
   

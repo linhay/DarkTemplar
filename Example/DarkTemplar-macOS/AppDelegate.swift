@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DarkTemplar macOS
+//  DarkTemplar-macOS
 //
 //  Created by linhey on 2018/10/23.
 //  Copyright © 2018 CocoaPods. All rights reserved.

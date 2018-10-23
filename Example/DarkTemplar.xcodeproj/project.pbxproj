@@ -7,57 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A37B32B8B18A2D3B3630E8A5 /* Pods_DarkTemplar_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F94A2DEBEDED6433FA43DA /* Pods_DarkTemplar_macOS.framework */; };
-		CD7EEA8C217EB29500800B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EEA8B217EB29500800B3D /* AppDelegate.swift */; };
-		CD7EEA8E217EB29500800B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EEA8D217EB29500800B3D /* ViewController.swift */; };
-		CD7EEA90217EB29700800B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7EEA8F217EB29700800B3D /* Assets.xcassets */; };
-		CD7EEA93217EB29700800B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7EEA91217EB29700800B3D /* Main.storyboard */; };
-		CD7EEA9F217EC4EC00800B3D /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CD7EEA9E217EC4EC00800B3D /* .travis.yml */; };
+		CD7EEABF217ECF5100800B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EEABE217ECF5100800B3D /* AppDelegate.swift */; };
+		CD7EEAC1217ECF5100800B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EEAC0217ECF5100800B3D /* ViewController.swift */; };
+		CD7EEAC3217ECF5200800B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7EEAC2217ECF5200800B3D /* Assets.xcassets */; };
+		CD7EEAC6217ECF5200800B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7EEAC4217ECF5200800B3D /* Main.storyboard */; };
+		E146C1EDDA526E25C8FCFBC2 /* Pods_DarkTemplar_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F94A2DEBEDED6433FA43DA /* Pods_DarkTemplar_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11AAC2057059AF84F0B79A0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1534704EF2D98E020B49F23B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		313DD79FA90C866A4B546B83 /* Pods-DarkTemplar-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar-macOS/Pods-DarkTemplar-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		36B2FE91397D6151F4B8EB58 /* Pods-DarkTemplar-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar-macOS/Pods-DarkTemplar-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		36F94A2DEBEDED6433FA43DA /* Pods_DarkTemplar_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkTemplar_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43931D316091FD03AE20E889 /* Pods_DarkTemplar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkTemplar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6421A193BAA53D53C177FD6B /* DarkTemplar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DarkTemplar.podspec; path = ../DarkTemplar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADC78E9FB7494A503F454A7A /* Pods-DarkTemplar macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar macOS/Pods-DarkTemplar macOS.release.xcconfig"; sourceTree = "<group>"; };
-		CD7EEA89217EB29500800B3D /* DarkTemplar macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkTemplar macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7EEA8B217EB29500800B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD7EEA8D217EB29500800B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD7EEA8F217EB29700800B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD7EEA92217EB29700800B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD7EEA94217EB29700800B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD7EEA95217EB29700800B3D /* DarkTemplar_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkTemplar_macOS.entitlements; sourceTree = "<group>"; };
 		CD7EEA9E217EC4EC00800B3D /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		CD7EEABC217ECF5100800B3D /* DarkTemplar-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkTemplar-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7EEABE217ECF5100800B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7EEAC0217ECF5100800B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7EEAC2217ECF5200800B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7EEAC5217ECF5200800B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7EEAC7217ECF5200800B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7EEAC8217ECF5200800B3D /* DarkTemplar_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkTemplar_macOS.entitlements; sourceTree = "<group>"; };
 		E9FB19EDB044D7972DF6DA51 /* Pods-DarkTemplar macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar macOS/Pods-DarkTemplar macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC9D42ACA238E594CFB528D6 /* Pods-DarkTemplar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Tests/Pods-DarkTemplar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FECC0FD6C7552C6979200913 /* Pods-DarkTemplar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Tests/Pods-DarkTemplar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD7EEA86217EB29500800B3D /* Frameworks */ = {
+		CD7EEAB9217ECF5100800B3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37B32B8B18A2D3B3630E8A5 /* Pods_DarkTemplar_macOS.framework in Frameworks */,
+				E146C1EDDA526E25C8FCFBC2 /* Pods_DarkTemplar_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD7EEA8A217EB29500800B3D /* DarkTemplar macOS */ = {
+		CD7EEABD217ECF5100800B3D /* DarkTemplar-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				CD7EEA8B217EB29500800B3D /* AppDelegate.swift */,
-				CD7EEA8D217EB29500800B3D /* ViewController.swift */,
-				CD7EEA8F217EB29700800B3D /* Assets.xcassets */,
-				CD7EEA91217EB29700800B3D /* Main.storyboard */,
-				CD7EEA94217EB29700800B3D /* Info.plist */,
-				CD7EEA95217EB29700800B3D /* DarkTemplar_macOS.entitlements */,
+				CD7EEABE217ECF5100800B3D /* AppDelegate.swift */,
+				CD7EEAC0217ECF5100800B3D /* ViewController.swift */,
+				CD7EEAC2217ECF5200800B3D /* Assets.xcassets */,
+				CD7EEAC4217ECF5200800B3D /* Main.storyboard */,
+				CD7EEAC7217ECF5200800B3D /* Info.plist */,
+				CD7EEAC8217ECF5200800B3D /* DarkTemplar_macOS.entitlements */,
 			);
-			path = "DarkTemplar macOS";
+			path = "DarkTemplar-macOS";
 			sourceTree = "<group>";
 		};
 		D2F9D735B7319CA6A9AFD33D /* Pods */ = {
@@ -67,6 +68,8 @@
 				FECC0FD6C7552C6979200913 /* Pods-DarkTemplar_Tests.release.xcconfig */,
 				E9FB19EDB044D7972DF6DA51 /* Pods-DarkTemplar macOS.debug.xcconfig */,
 				ADC78E9FB7494A503F454A7A /* Pods-DarkTemplar macOS.release.xcconfig */,
+				313DD79FA90C866A4B546B83 /* Pods-DarkTemplar-macOS.debug.xcconfig */,
+				36B2FE91397D6151F4B8EB58 /* Pods-DarkTemplar-macOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
-				CD7EEA8A217EB29500800B3D /* DarkTemplar macOS */,
+				CD7EEABD217ECF5100800B3D /* DarkTemplar-macOS */,
 				ED83F67920348A760038D96B /* Products */,
 				D2F9D735B7319CA6A9AFD33D /* Pods */,
 				D430829220FAEA417FC9540D /* Frameworks */,
@@ -94,7 +97,7 @@
 		ED83F67920348A760038D96B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD7EEA89217EB29500800B3D /* DarkTemplar macOS.app */,
+				CD7EEABC217ECF5100800B3D /* DarkTemplar-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,23 +116,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD7EEA88217EB29500800B3D /* DarkTemplar macOS */ = {
+		CD7EEABB217ECF5100800B3D /* DarkTemplar-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD7EEA96217EB29700800B3D /* Build configuration list for PBXNativeTarget "DarkTemplar macOS" */;
+			buildConfigurationList = CD7EEAC9217ECF5200800B3D /* Build configuration list for PBXNativeTarget "DarkTemplar-macOS" */;
 			buildPhases = (
-				08A288A5F3341902D328B24E /* [CP] Check Pods Manifest.lock */,
-				CD7EEA85217EB29500800B3D /* Sources */,
-				CD7EEA86217EB29500800B3D /* Frameworks */,
-				CD7EEA87217EB29500800B3D /* Resources */,
-				F0E7FB1D1FAFBEB7D3880EB8 /* [CP] Embed Pods Frameworks */,
+				3BD50F64C1B659274219A958 /* [CP] Check Pods Manifest.lock */,
+				CD7EEAB8217ECF5100800B3D /* Sources */,
+				CD7EEAB9217ECF5100800B3D /* Frameworks */,
+				CD7EEABA217ECF5100800B3D /* Resources */,
+				6F7733B810CBA8BE2B5A4D5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "DarkTemplar macOS";
-			productName = "DarkTemplar macOS";
-			productReference = CD7EEA89217EB29500800B3D /* DarkTemplar macOS.app */;
+			name = "DarkTemplar-macOS";
+			productName = "DarkTemplar-macOS";
+			productReference = CD7EEABC217ECF5100800B3D /* DarkTemplar-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +145,7 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					CD7EEA88217EB29500800B3D = {
+					CD7EEABB217ECF5100800B3D = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -161,26 +164,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD7EEA88217EB29500800B3D /* DarkTemplar macOS */,
+				CD7EEABB217ECF5100800B3D /* DarkTemplar-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD7EEA87217EB29500800B3D /* Resources */ = {
+		CD7EEABA217ECF5100800B3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7EEA9F217EC4EC00800B3D /* .travis.yml in Resources */,
-				CD7EEA90217EB29700800B3D /* Assets.xcassets in Resources */,
-				CD7EEA93217EB29700800B3D /* Main.storyboard in Resources */,
+				CD7EEAC3217ECF5200800B3D /* Assets.xcassets in Resources */,
+				CD7EEAC6217ECF5200800B3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08A288A5F3341902D328B24E /* [CP] Check Pods Manifest.lock */ = {
+		3BD50F64C1B659274219A958 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,14 +197,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DarkTemplar macOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DarkTemplar-macOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0E7FB1D1FAFBEB7D3880EB8 /* [CP] Embed Pods Frameworks */ = {
+		6F7733B810CBA8BE2B5A4D5E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +212,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DarkTemplar macOS/Pods-DarkTemplar macOS-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-DarkTemplar-macOS/Pods-DarkTemplar-macOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DarkTemplar/DarkTemplar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -221,28 +223,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkTemplar macOS/Pods-DarkTemplar macOS-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkTemplar-macOS/Pods-DarkTemplar-macOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD7EEA85217EB29500800B3D /* Sources */ = {
+		CD7EEAB8217ECF5100800B3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7EEA8E217EB29500800B3D /* ViewController.swift in Sources */,
-				CD7EEA8C217EB29500800B3D /* AppDelegate.swift in Sources */,
+				CD7EEAC1217ECF5100800B3D /* ViewController.swift in Sources */,
+				CD7EEABF217ECF5100800B3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD7EEA91217EB29700800B3D /* Main.storyboard */ = {
+		CD7EEAC4217ECF5200800B3D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD7EEA92217EB29700800B3D /* Base */,
+				CD7EEAC5217ECF5200800B3D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -250,20 +252,18 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CD7EEA97217EB29700800B3D /* Debug */ = {
+		CD7EEACA217ECF5200800B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9FB19EDB044D7972DF6DA51 /* Pods-DarkTemplar macOS.debug.xcconfig */;
+			baseConfigurationReference = 313DD79FA90C866A4B546B83 /* Pods-DarkTemplar-macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_ENTITLEMENTS = "DarkTemplar macOS/DarkTemplar_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "DarkTemplar-macOS/DarkTemplar_macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3L8RM3MDLS;
-				INFOPLIST_FILE = "DarkTemplar macOS/Info.plist";
+				INFOPLIST_FILE = "DarkTemplar-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -274,20 +274,18 @@
 			};
 			name = Debug;
 		};
-		CD7EEA98217EB29700800B3D /* Release */ = {
+		CD7EEACB217ECF5200800B3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC78E9FB7494A503F454A7A /* Pods-DarkTemplar macOS.release.xcconfig */;
+			baseConfigurationReference = 36B2FE91397D6151F4B8EB58 /* Pods-DarkTemplar-macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_ENTITLEMENTS = "DarkTemplar macOS/DarkTemplar_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "DarkTemplar-macOS/DarkTemplar_macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3L8RM3MDLS;
-				INFOPLIST_FILE = "DarkTemplar macOS/Info.plist";
+				INFOPLIST_FILE = "DarkTemplar-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
@@ -410,11 +408,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD7EEA96217EB29700800B3D /* Build configuration list for PBXNativeTarget "DarkTemplar macOS" */ = {
+		CD7EEAC9217ECF5200800B3D /* Build configuration list for PBXNativeTarget "DarkTemplar-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD7EEA97217EB29700800B3D /* Debug */,
-				CD7EEA98217EB29700800B3D /* Release */,
+				CD7EEACA217ECF5200800B3D /* Debug */,
+				CD7EEACB217ECF5200800B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
