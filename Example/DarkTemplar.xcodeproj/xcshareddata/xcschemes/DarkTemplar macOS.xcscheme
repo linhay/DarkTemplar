@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED83F67720348A760038D96B"
-               BuildableName = "DarkTemplar_Example.app"
-               BlueprintName = "DarkTemplar_Example"
+               BlueprintIdentifier = "CD7EEA88217EB29500800B3D"
+               BuildableName = "DarkTemplar macOS.app"
+               BlueprintName = "DarkTemplar macOS"
                ReferencedContainer = "container:DarkTemplar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED83F68920348A760038D96B"
-               BuildableName = "DarkTemplar_Tests.xctest"
-               BlueprintName = "DarkTemplar_Tests"
-               ReferencedContainer = "container:DarkTemplar.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED83F67720348A760038D96B"
-            BuildableName = "DarkTemplar_Example.app"
-            BlueprintName = "DarkTemplar_Example"
+            BlueprintIdentifier = "CD7EEA88217EB29500800B3D"
+            BuildableName = "DarkTemplar macOS.app"
+            BlueprintName = "DarkTemplar macOS"
             ReferencedContainer = "container:DarkTemplar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED83F67720348A760038D96B"
-            BuildableName = "DarkTemplar_Example.app"
-            BlueprintName = "DarkTemplar_Example"
+            BlueprintIdentifier = "CD7EEA88217EB29500800B3D"
+            BuildableName = "DarkTemplar macOS.app"
+            BlueprintName = "DarkTemplar macOS"
             ReferencedContainer = "container:DarkTemplar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED83F67720348A760038D96B"
-            BuildableName = "DarkTemplar_Example.app"
-            BlueprintName = "DarkTemplar_Example"
+            BlueprintIdentifier = "CD7EEA88217EB29500800B3D"
+            BuildableName = "DarkTemplar macOS.app"
+            BlueprintName = "DarkTemplar macOS"
             ReferencedContainer = "container:DarkTemplar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
