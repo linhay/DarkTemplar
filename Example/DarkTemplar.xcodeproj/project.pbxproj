@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		928923921C3E6CD582546428 /* Pods_DarkTemplar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DFCDB86A342EB0690260A0 /* Pods_DarkTemplar_Tests.framework */; };
 		C67E38ABFE881F0FB0359181 /* Pods_DarkTemplar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5784F025FA3658670F5E1C5A /* Pods_DarkTemplar_Example.framework */; };
+		CDA6E9AB217EFC4000D6DC5A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CDA6E9AA217EFC4000D6DC5A /* .gitignore */; };
+		CDA6E9AD217EFC4700D6DC5A /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CDA6E9AC217EFC4700D6DC5A /* .travis.yml */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		5784F025FA3658670F5E1C5A /* Pods_DarkTemplar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkTemplar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B929FABAD83DCE5438833C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A4B74D6173D2154B90A122E0 /* Pods-DarkTemplar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Tests/Pods-DarkTemplar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA6E9AA217EFC4000D6DC5A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		CDA6E9AC217EFC4700D6DC5A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		D013FEE2724B8816DA88D513 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D192BE4BC07DE43C22CA40E0 /* Pods-DarkTemplar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Tests/Pods-DarkTemplar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* DarkTemplar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkTemplar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +138,8 @@
 		ED83F69A20348B650038D96B /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				CDA6E9AC217EFC4700D6DC5A /* .travis.yml */,
+				CDA6E9AA217EFC4000D6DC5A /* .gitignore */,
 				0386374E6429225814C1A8D3 /* DarkTemplar.podspec */,
 				D013FEE2724B8816DA88D513 /* README.md */,
 				60B929FABAD83DCE5438833C /* LICENSE */,
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED83F68020348A760038D96B /* Assets.xcassets in Resources */,
+				CDA6E9AB217EFC4000D6DC5A /* .gitignore in Resources */,
+				CDA6E9AD217EFC4700D6DC5A /* .travis.yml in Resources */,
 				ED83F68320348A760038D96B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

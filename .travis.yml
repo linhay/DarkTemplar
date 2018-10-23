@@ -10,7 +10,7 @@ global:
 - LC_ALL=en_US.UTF-8
 - XCODE_WORKSPACE=Example/DarkTemplar.xcworkspace
 matrix:
-- SCHEME="DarkTemplar-macOS"
+- SCHEME="DarkTemplar-Example"
 
 before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
