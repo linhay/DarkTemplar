@@ -1,0 +1,16 @@
+PODS:
+  - DarkTemplar (0.0.1)
+
+DEPENDENCIES:
+  - DarkTemplar (from `../`)
+
+EXTERNAL SOURCES:
+  DarkTemplar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DarkTemplar: d8e42bed75603da913073a47fe51dcee143bb890
+
+PODFILE CHECKSUM: b8fec6a90fdae56ce706b452d3e3865c13894905
+
+COCOAPODS: 1.5.3
