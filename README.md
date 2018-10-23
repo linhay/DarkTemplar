@@ -22,7 +22,7 @@ pod 'DarkTemplar'
 
 ## Author
 
-linhay, 158179948@qq.com
+linhay, is.linhay@outlook.com
 
 ## License
 
