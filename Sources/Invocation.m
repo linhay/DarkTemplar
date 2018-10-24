@@ -26,4 +26,21 @@
   return [super invocationWithMethodSignature:sig];
 }
 
+// https://github.com/JaviSoto/iOS10-Runtime-Headers/tree/master/lib/libswiftCore.dylib
+/**
+ 设置函数参数
+
+ @param argument 参数
+ @param typeEncoding 预期参数类型
+ @param idx 偏移量
+ */
+- (void)setArgument:(id)argument expectedTypeEncoding: (NSString *)typeEncoding atIndex:(NSInteger)idx {
+  NSString * className = [[NSString alloc] initWithCString:object_getClassName(argument) encoding: NSUTF8StringEncoding];
+  id inoutArg;
+  if (@encode(double) && [className isEqualToString:@"Swift._SwiftDeferredNSArray"]) {
+    CFNumberGetValue((__bridge CFNumberRef)argument[0], kCFNumberDoubleType, &inoutArg);
+  }
+  [self setArgument:&inoutArg atIndex:idx];
+}
+
 @end
