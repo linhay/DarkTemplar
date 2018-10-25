@@ -46,9 +46,11 @@
 }
 
 - (id)getReturnValue {
-  id __autoreleasing obj  = nil;
-  [super getReturnValue:&obj];
-  return obj;
+  @autoreleasepool {
+    id __autoreleasing obj  = nil;
+    [super getReturnValue:&obj];
+    return obj;
+  }
 }
 
 @end
