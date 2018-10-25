@@ -25,4 +25,6 @@
 
 + (NSInvocation *)invocationWithMethodSignature:(NSMethodSignature *)sig;
 - (void)setArgument:(id)argument expectedTypeEncoding: (NSString *)typeEncoding atIndex:(NSInteger)idx;
+- (id)getReturnValue;
+
 @end
