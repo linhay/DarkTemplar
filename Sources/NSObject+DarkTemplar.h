@@ -19,14 +19,16 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
+#import "Invocation.h"
+#import "MethodSignature.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (DarkTemplar)
 
-- (void)forward:(NSInvocation *)anInvocation;
-- (NSMethodSignature *)methodSignature:(SEL)aSelector;
-+ (NSMethodSignature *)instanceMethodSignature:(SEL)aSelector;
+- (void)forward:(Invocation *)anInvocation;
+- (MethodSignature *)methodSignature:(SEL)aSelector;
++ (MethodSignature *)instanceMethodSignature:(SEL)aSelector;
 
 @end
 

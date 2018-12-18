@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name    = 'DarkTemplar'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.license = 'MIT'
   s.summary = '一代又一代的勇者们 都选择了黑暗圣堂之路.'
   

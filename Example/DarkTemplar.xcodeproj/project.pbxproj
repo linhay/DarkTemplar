@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0386374E6429225814C1A8D3 /* DarkTemplar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DarkTemplar.podspec; path = ../DarkTemplar.podspec; sourceTree = "<group>"; };
+		0386374E6429225814C1A8D3 /* DarkTemplar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DarkTemplar.podspec; path = ../DarkTemplar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18DFCDB86A342EB0690260A0 /* Pods_DarkTemplar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkTemplar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		467375FBEBEEF2F35C46D374 /* Pods-DarkTemplar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Example/Pods-DarkTemplar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52FF1D12A0CA1850FA6E4E87 /* Pods-DarkTemplar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkTemplar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkTemplar_Example/Pods-DarkTemplar_Example.debug.xcconfig"; sourceTree = "<group>"; };
