@@ -26,11 +26,11 @@
   [self forwardInvocation: anInvocation];
 }
 
-- (MethodSignature *)methodSignature:(SEL)aSelector {
+- (NSMethodSignature *)methodSignature:(SEL)aSelector {
  return [self methodSignatureForSelector:aSelector];
 }
 
-+ (MethodSignature *)instanceMethodSignature:(SEL)aSelector {
++ (NSMethodSignature *)instanceMethodSignature:(SEL)aSelector {
  return [self instanceMethodSignature:aSelector];
 }
 
