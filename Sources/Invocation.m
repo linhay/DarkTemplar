@@ -100,7 +100,6 @@
 }
 
 - (id)getReturnValue {
-  NSLog(@"test");
   @autoreleasepool {
     id __autoreleasing obj  = nil;
     [self.instance getReturnValue:&obj];
