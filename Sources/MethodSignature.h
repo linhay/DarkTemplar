@@ -20,8 +20,22 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MethodSignature : NSMethodSignature
+@interface MethodSignature : NSObject
 
-+ (nullable NSMethodSignature *)signatureWithObjCTypes:(const char *)types;
+@property(nonatomic,strong) NSMethodSignature* instance;
+
++ (MethodSignature *)signatureWithObjCTypes:(const char *)types;
+
+@property (readonly) NSUInteger numberOfArguments;
+- (const char *)getArgumentTypeAtIndex:(NSUInteger)idx NS_RETURNS_INNER_POINTER;
+
+@property (readonly) NSUInteger frameLength;
+
+- (BOOL)isOneway;
+
+@property (readonly) const char *methodReturnType NS_RETURNS_INNER_POINTER;
+@property (readonly) NSUInteger methodReturnLength;
+
+
 
 @end

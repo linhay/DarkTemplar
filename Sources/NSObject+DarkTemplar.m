@@ -23,15 +23,19 @@
 @implementation NSObject (DarkTemplar)
 
 - (void)forward:(Invocation *)anInvocation {
-  [self forwardInvocation: anInvocation];
+  [self forwardInvocation: anInvocation.instance];
 }
 
-- (NSMethodSignature *)methodSignature:(SEL)aSelector {
- return [self methodSignatureForSelector:aSelector];
+- (MethodSignature *)methodSignature:(SEL)aSelector {
+  MethodSignature * obj = [[MethodSignature alloc] init];
+  obj.instance = [self methodSignatureForSelector:aSelector];
+  return obj;
 }
 
-+ (NSMethodSignature *)instanceMethodSignature:(SEL)aSelector {
- return [self instanceMethodSignature:aSelector];
++ (MethodSignature *)instanceMethodSignature:(SEL)aSelector {
+  MethodSignature * obj = [[MethodSignature alloc] init];
+  obj.instance = [self instanceMethodSignatureForSelector:aSelector];
+  return obj;
 }
 
 @end

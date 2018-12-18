@@ -19,11 +19,65 @@
 // THE SOFTWARE.
 
 #import "Invocation.h"
+#import <objc/runtime.h>
+
+@interface Invocation ()
+
+
+@end
+
 
 @implementation Invocation
 
-+ (NSInvocation *)invocationWithMethodSignature:(NSMethodSignature *)sig {
-  return [super invocationWithMethodSignature:sig];
+- (void)getReturnValue:(void *)retLoc {
+  [self.instance getReturnValue:retLoc];
+}
+
+
+- (void)getArgument:(void *)argumentLocation atIndex:(NSInteger)idx{
+  [self.instance getArgument:argumentLocation atIndex:idx];
+}
+
+- (void)invoke{
+  [self.instance invoke];
+}
+
+- (void)invokeWithTarget:(id)target {
+  [self.instance invokeWithTarget:target];
+}
+
+- (void)retainArguments{
+  [self.instance retainArguments];
+}
+
+- (void)setArgument:(void *)argumentLocation atIndex:(NSInteger)idx{
+  [self.instance setArgument:argumentLocation atIndex:idx];
+}
+
+- (void)setReturnValue:(void *)retLoc{
+  [self.instance setReturnValue:retLoc];
+}
+
+- (void)setTarget:(id)target {
+  self.instance.target = target;
+}
+
+- (id)target {
+  return self.instance.target;
+}
+
+- (void)setSelector:(SEL)selector{
+  self.instance.selector = selector;
+}
+
+- (SEL)selector{
+  return self.instance.selector;
+}
+
++ (Invocation *)invocationWithMethodSignature:(MethodSignature *)sig {
+  Invocation * obj = [[Invocation alloc] init];
+  obj.instance = [NSInvocation invocationWithMethodSignature:sig.instance];
+  return obj;
 }
 
 // https://github.com/JaviSoto/iOS10-Runtime-Headers/tree/master/lib/libswiftCore.dylib
@@ -42,13 +96,14 @@
   }else if ([@"d" isEqualToString:typeEncoding]) {
     CFNumberGetValue((__bridge CFNumberRef)argument, kCFNumberDoubleType, &inoutArg);
   }
-  [self setArgument:&inoutArg atIndex:idx];
+  [self.instance setArgument:&inoutArg atIndex:idx];
 }
 
 - (id)getReturnValue {
+  NSLog(@"test");
   @autoreleasepool {
     id __autoreleasing obj  = nil;
-    [super getReturnValue:&obj];
+    [self.instance getReturnValue:&obj];
     return obj;
   }
 }

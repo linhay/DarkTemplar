@@ -21,9 +21,31 @@
 #import <Foundation/Foundation.h>
 #import "MethodSignature.h"
 
-@interface Invocation : NSInvocation
+@interface Invocation : NSObject
 
-+ (NSInvocation *)invocationWithMethodSignature:(NSMethodSignature *)sig;
+@property(nonatomic,strong) NSInvocation* instance;
+
++ (Invocation *)invocationWithMethodSignature:(MethodSignature *)sig;
+@property (readonly, retain) NSMethodSignature *methodSignature;
+
+- (void)retainArguments;
+@property (readonly) BOOL argumentsRetained;
+
+@property (nullable, assign) id target;
+@property SEL selector;
+
+- (void)getReturnValue:(void *)retLoc;
+- (void)setReturnValue:(void *)retLoc;
+
+- (void)getArgument:(void *)argumentLocation atIndex:(NSInteger)idx;
+- (void)setArgument:(void *)argumentLocation atIndex:(NSInteger)idx;
+
+- (void)invoke;
+- (void)invokeWithTarget:(id)target;
+
+
+
+
 - (void)setArgument:(id)argument expectedTypeEncoding: (NSString *)typeEncoding atIndex:(NSInteger)idx;
 - (id)getReturnValue;
 

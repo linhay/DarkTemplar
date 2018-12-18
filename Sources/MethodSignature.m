@@ -20,10 +20,43 @@
 
 #import "MethodSignature.h"
 
+@interface MethodSignature ()
+
+
+@end
+
 @implementation MethodSignature
 
-+ (NSMethodSignature *)signatureWithObjCTypes:(const char *)types{
- return [super signatureWithObjCTypes:types];
+- (const char *)getArgumentTypeAtIndex:(NSUInteger)idx {
+ return [self.instance getArgumentTypeAtIndex:idx];
+}
+
+- (BOOL)isOneway {
+  return [self.instance isOneway];
+}
+
+- (NSUInteger)numberOfArguments{
+  return [self.instance numberOfArguments];
+}
+
+- (NSUInteger)frameLength{
+  return [self.instance frameLength];
+}
+
+- (const char *)methodReturnType{
+  return [self.instance methodReturnType];
+}
+
+
+- (NSUInteger)methodReturnLength{
+  return [self.instance methodReturnLength];
+}
+
+
++ (MethodSignature *)signatureWithObjCTypes:(const char *)types{
+  MethodSignature * obj = [[MethodSignature alloc] init];
+  obj.instance = [NSMethodSignature signatureWithObjCTypes:types];
+  return obj;
 }
 
 @end
