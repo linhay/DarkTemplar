@@ -1,5 +1,5 @@
 PODS:
-  - DarkTemplar (0.0.1)
+  - DarkTemplar (0.0.4)
 
 DEPENDENCIES:
   - DarkTemplar (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DarkTemplar: cbb964159163198ad769b07421f82ad204cfeced
+  DarkTemplar: 850b4047b654338028ff4368dab0ab076cbd559a
 
 PODFILE CHECKSUM: 82b469400dabd544fc55bbf9169b10085d5c7c2b
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.5.3

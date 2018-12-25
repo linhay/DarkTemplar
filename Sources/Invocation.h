@@ -34,19 +34,15 @@
 @property (nullable, assign) id target;
 @property SEL selector;
 
-- (void)getReturnValue:(void *)retLoc;
-- (void)setReturnValue:(void *)retLoc;
-
-- (void)getArgument:(void *)argumentLocation atIndex:(NSInteger)idx;
-- (void)setArgument:(void *)argumentLocation atIndex:(NSInteger)idx;
-
 - (void)invoke;
 - (void)invokeWithTarget:(id)target;
 
-
-
-
+- (id)getArgument:(NSInteger)offset;
+- (void)setArgument:(id)value atIndex:(NSInteger)idx;
 - (void)setArgument:(id)argument expectedTypeEncoding: (NSString *)typeEncoding atIndex:(NSInteger)idx;
-- (id)getReturnValue;
 
+- (id)getReturnObject;
+- (void)getReturnValue:(void *)retLoc;
+- (void)setReturnValue:(void *)retLoc;
+  
 @end
